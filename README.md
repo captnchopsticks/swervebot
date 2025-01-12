@@ -20,7 +20,10 @@ The libraries required for this project are: </br>
   Adafruit_SH110X.h (available through library manager) </br>
   
 When uploading the code, you might notice that a warning message pop up about the SparkFun_TB6612 library claiming 
-to run on AVR architecture, which might be incompatible with the ESP32. This is okay, the code for the sparkfun library
+to run on AVR architecture, which might be incompatible with the ESP32. You can ignore this message, the code for the sparkfun library
 uses digitalWrite and analogWrite, which are all compatible with the Arduino Nano ESP32 so long as you select the correct
-Nano ESP32 board with the ESP32 board package.
+Nano ESP32 board with the ESP32 board package. Alternatively, you can also go to library.properties file in the library folder and change
+the architecture name so that the message doesn't flag everytime you upload a sketch to the Nano ESP32.
+
+
 
