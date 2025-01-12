@@ -93,6 +93,7 @@ const char index_html[] PROGMEM = R"rawliteral(
     color:white;
   }
   .vertical-slider {
+    user-select: none; 
     -webkit-appearance: slider-vertical;
     appearance: slider-vertical;
     width: 20px;
