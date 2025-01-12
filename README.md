@@ -13,11 +13,11 @@ the appropriate Adafruit library as well as change the initialization of the Ada
 your OLED screen.
 
 The libraries required for this project are:
-  AsyncTCP.h - https://github.com/me-no-dev/AsyncTCP
-  ESPAsyncWebServer.h - https://github.com/me-no-dev/ESPAsyncWebServer
-  SparkFun_TB6612.h - https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library
-  Adafruit_GFX.h (available through library manager)
-  Adafruit_SH110X.h (available through library manager)
+  AsyncTCP.h - https://github.com/me-no-dev/AsyncTCP </br>
+  ESPAsyncWebServer.h - https://github.com/me-no-dev/ESPAsyncWebServer </br>
+  SparkFun_TB6612.h - https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library </br>
+  Adafruit_GFX.h (available through library manager) </br>
+  Adafruit_SH110X.h (available through library manager) </br>
   
 When uploading the code, you might notice that a warning message pop up about the SparkFun_TB6612 library claiming 
 to run on AVR architecture, which might be incompatible with the ESP32. This is okay, the code for the sparkfun library
