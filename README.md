@@ -12,7 +12,7 @@ if you are using the SSD1306 OLED screen, which is much more commonly used. To a
 the appropriate Adafruit library as well as change the initialization of the Adafruit display object to accomodate
 your OLED screen.
 
-The libraries required for this project are:
+The libraries required for this project are: </br>
   AsyncTCP.h - https://github.com/me-no-dev/AsyncTCP </br>
   ESPAsyncWebServer.h - https://github.com/me-no-dev/ESPAsyncWebServer </br>
   SparkFun_TB6612.h - https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library </br>
