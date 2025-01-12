@@ -11,3 +11,16 @@ This code uses the SH110X library from Adafruit to control the OLED screen. Howe
 if you are using the SSD1306 OLED screen, which is much more commonly used. To adapt the code, you will need to include
 the appropriate Adafruit library as well as change the initialization of the Adafruit display object to accomodate
 your OLED screen.
+
+The libraries required for this project are:
+  AsyncTCP.h - https://github.com/me-no-dev/AsyncTCP
+  ESPAsyncWebServer.h - https://github.com/me-no-dev/ESPAsyncWebServer
+  SparkFun_TB6612.h - https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library
+  Adafruit_GFX.h (available through library manager)
+  Adafruit_SH110X.h (available through library manager)
+  
+When uploading the code, you might notice that a warning message pop up about the SparkFun_TB6612 library claiming 
+to run on AVR architecture, which might be incompatible with the ESP32. This is okay, the code for the sparkfun library
+uses digitalWrite and analogWrite, which are all compatible with the Arduino Nano ESP32 so long as you select the correct
+Nano ESP32 board with the ESP32 board package.
+
